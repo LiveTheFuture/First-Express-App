@@ -1,0 +1,31 @@
+{
+  "name": "First-Express-App",
+  "version": "1.0.0",
+  "description": "This is an app built with Express that connects to MongoDB and performs CRUD operations on data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiveTheFuture/First-Express-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiveTheFuture/First-Express-App/issues"
+  },
+  "homepage": "https://github.com/LiveTheFuture/First-Express-App#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^9.0.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.11.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
