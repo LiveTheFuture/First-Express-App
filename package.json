@@ -2,9 +2,11 @@
   "name": "First-Express-App",
   "version": "1.0.0",
   "description": "This is an app built with Express that connects to MongoDB and performs CRUD operations on data.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node server.js",
+    "server" : "nodemon server.js"
   },
   "repository": {
     "type": "git",
