@@ -91,6 +91,11 @@ app.delete('/intern/:id', (req, res) => {
 })
 
 
+app.get('/',(req, res) => {
+    res.json({message: "Hi!!!! This is my very first Express App."})
+});
+
+
 app.listen(PORT, () => {
     console.log(`app listening on port ${PORT}`)
 });
