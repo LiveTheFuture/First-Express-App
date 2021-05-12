@@ -4,9 +4,11 @@ This is an app built with Express that connects to MongoDB and performs CRUD ope
 
 It makes use of MongoDB Atlas as a cloud storage.
 
-When the app is created and listening on a port, a connection is made to MongoDB Atlas via a connection string.
+This app can create data, read data, update data and delete data.
 
-Then routes were created for posting data, getting data, updating data and deleting data.
+All routes were tested via postman and are working.
 
-Authors
+Heroku link: https://live-the-future-app.herokuapp.com/
+
+Author(s)
 @LiveTheFuture
