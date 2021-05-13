@@ -92,7 +92,7 @@ app.delete('/intern/:id', (req, res) => {
 
 
 app.get('/',(req, res) => {
-    res.send(message: "Hi!!!! This is my very first Express App.");
+    res.send([message: "Hi!!!! This is my very first Express App."]);
 });
 
 
